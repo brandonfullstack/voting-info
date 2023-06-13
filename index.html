@@ -3,37 +3,30 @@
 <head>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/scripts.js"></script>
-  <title>Drinks</title>
+  <title>Voting Information</title>
 </head>
 <body>
   <div>
     <form>
-      <label for="age">We need to verify that you are over 21 years of age before we can show you the drinks menu. What is your age?</label>
+      <label for="age">We need to verify that you are old enough to vote. What is your age?</label>
       <input id="age" type="number">
       <button type="submit">Submit!</button>
     </form>
 
-    <div id="drinks" class="hidden">
+    <div id="voter" class="hidden">
       <h1 id="birthday-wish"></h1>
-      <h1>Drink menu</h1>
+      <h1>Voter Info</h1>
 
-      <h2>Beer</h2>
+      <h2>Links</h2>
       <ul>
-        <li>The King of Beer</li>
-        <li>The Queen of Beer</li>
-        <li>Real cold beer</li>
-      </ul>
-
-      <h2>Wine</h2>
-      <ul>
-        <li>Red wine</li>
-        <li>White wine</li>
-        <li>Blue wine</li>
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
       </ul>
     </div>
 
-    <div id="under-21" class="hidden">
-      <h1>Sorry, we can't serve you.</h1>
+    <div id="non-voter" class="hidden">
+      <h1>Sorry, you can't vote</h1>
 
       <p>It's illegal in the US. Try Mexico or Europe.</p>
     </div>
